@@ -1,9 +1,9 @@
-// Menu Show Y Hidden
+/*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
 
-// Menu Show
+/*===== MENU SHOW =====*/
 // Verifichiamo che navToggle esiste
 if (navToggle) {
   navToggle.addEventListener("click", () => {
@@ -11,7 +11,7 @@ if (navToggle) {
   });
 }
 
-// Menu Hidden
+/*===== MENU HIDDEN =====*/
 // Verifichiamo che navClose esiste
 if (navClose) {
   navClose.addEventListener("click", () => {
@@ -28,3 +28,21 @@ function linkAction() {
   navMenu.classList.remove("show-menu");
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+/*==================== ACCORDION SKILLS ====================*/
+
+/*==================== QUALIFICATION TABS ====================*/
+
+/*==================== SERVICES MODAL ====================*/
+
+/*==================== PORTFOLIO SWIPER  ====================*/
+
+/*==================== TESTIMONIAL ====================*/
+
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
+/*==================== CHANGE BACKGROUND HEADER ====================*/
+
+/*==================== SHOW SCROLL UP ====================*/
+
+/*==================== DARK LIGHT THEME ====================*/
